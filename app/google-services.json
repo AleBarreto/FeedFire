@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "254225095966",
+    "firebase_url": "https://feedlistfirebase.firebaseio.com",
+    "project_id": "feedlistfirebase",
+    "storage_bucket": "feedlistfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254225095966:android:f69798aafe126639",
+        "android_client_info": {
+          "package_name": "barreto.alessandro.feedlist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254225095966-03g7sshc2e4v208s8t27ssf0asogucqf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "barreto.alessandro.feedlist",
+            "certificate_hash": "a92fb9f992911c6de4e13c912d7448a4f1d1c107"
+          }
+        },
+        {
+          "client_id": "254225095966-4ia0urc4objovek87vaubj6iia6v546t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoP_fA8EFoendm6n9UoA6k3NX5uhTU_P4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254225095966-4ia0urc4objovek87vaubj6iia6v546t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

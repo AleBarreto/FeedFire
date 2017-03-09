@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="barreto.alessandro.feedlist.view.activity.LoginActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:src="@drawable/logofirebase"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageView" />
+
+        <in.championswimmer.libsocialbuttons.buttons.BtnFacebook
+            android:id="@+id/btn_facebook"
+            android:text="Login With Facebook"
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout">
+            <in.championswimmer.libsocialbuttons.buttons.BtnGoogleplus
+                android:id="@+id/btn_google"
+                android:text="Login With GooglePlus"
+                android:background="@null"
+                android:drawablePadding="8dp"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"/>
+            <in.championswimmer.libsocialbuttons.buttons.BtnTwitter
+                android:textSize="14sp"
+                android:background="@null"
+                android:drawablePadding="8dp"
+                android:text="Login With Twitter"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <ProgressBar
+            android:visibility="gone"
+            android:id="@+id/pb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>
