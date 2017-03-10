@@ -16,6 +16,12 @@ FeedFire is a project to help developers integrate with Google Firebase.
  - Like and Dislike
  - Capture/Get Photo
  
+## Structure
+ 
+![feed](https://github.com/AleBarreto/FeedFire/blob/master/img/feed.png?raw=true)
+![like](https://github.com/AleBarreto/FeedFire/blob/master/img/like.png?raw=true)
+![user](https://github.com/AleBarreto/FeedFire/blob/master/img/user.png?raw=true)
+
 
 ## Libraries
  
