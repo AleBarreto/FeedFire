@@ -15,6 +15,7 @@ FeedFire is a project to help developers integrate with Google Firebase.
  - Storage
  - Like and Dislike
  - Capture/Get Photo
+ - Crash
  
 ## Structure
  
