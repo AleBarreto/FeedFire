@@ -14,9 +14,9 @@
         android:layout_height="wrap_content">
 
         <RelativeLayout
-            android:padding="@dimen/activity_horizontal_margin"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin">
 
             <ImageView
                 android:id="@+id/iv_avatar"
@@ -24,28 +24,28 @@
                 android:layout_height="40dp" />
 
             <TextView
-                android:textSize="14sp"
-                android:layout_marginStart="16dp"
-                android:layout_marginLeft="16dp"
-                android:textStyle="bold"
                 android:id="@+id/tv_name"
-                android:text="Alessandro Barreto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
                 android:layout_toEndOf="@+id/iv_avatar"
                 android:layout_toRightOf="@+id/iv_avatar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:text="Alessandro Barreto"
+                android:textSize="14sp"
+                android:textStyle="bold" />
 
             <TextView
-                android:textSize="14sp"
-                android:layout_marginStart="16dp"
-                android:layout_marginLeft="16dp"
-                android:text="Junho 1, 2017"
-                android:layout_below="@+id/tv_name"
-                android:layout_toEndOf="@+id/iv_avatar"
-                android:layout_toRightOf="@+id/iv_avatar"
                 android:id="@+id/tv_time"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_name"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_toEndOf="@+id/iv_avatar"
+                android:layout_toRightOf="@+id/iv_avatar"
+                android:text="Junho 1, 2017"
+                android:textSize="14sp" />
 
         </RelativeLayout>
 

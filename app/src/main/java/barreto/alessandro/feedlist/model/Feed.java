@@ -8,7 +8,7 @@ public class Feed {
 
     String photoAvatar;
     String name;
-    String time;
+    Long time;
     String text;
     String photoFeed;
     String idUser;
@@ -17,15 +17,6 @@ public class Feed {
     public Feed() {
     }
 
-    public Feed(String photoAvatar, String name, String time, String text, String photoFeed, String idUser, String idFeed) {
-        this.photoAvatar = photoAvatar;
-        this.name = name;
-        this.time = time;
-        this.text = text;
-        this.photoFeed = photoFeed;
-        this.idUser = idUser;
-        this.idFeed = idFeed;
-    }
 
     public String getIdUser() {
         return idUser;
@@ -59,11 +50,11 @@ public class Feed {
         this.name = name;
     }
 
-    public String getTime() {
+    public Long getTime() {
         return time;
     }
 
-    public void setTime(String time) {
+    public void setTime(Long time) {
         this.time = time;
     }
 

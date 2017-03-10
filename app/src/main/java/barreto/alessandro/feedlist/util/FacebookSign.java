@@ -1,8 +1,14 @@
 package barreto.alessandro.feedlist.util;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.Signature;
 import android.support.annotation.NonNull;
 import android.support.v4.app.FragmentActivity;
+import android.util.Base64;
+import android.util.Log;
 
 import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
@@ -17,6 +23,8 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FacebookAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
 
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
 import java.util.List;
 
@@ -89,6 +97,24 @@ public class FacebookSign {
         void getInfoFace();
         void cancelLoginFace();
         void errorLoginFace(FacebookException e);
+    }
+
+    public static void keyHash(Context context){
+
+        // Add code to print out the key hash
+        try {
+            PackageInfo info = context.getPackageManager().getPackageInfo(
+                    "barreto.alessandro.feedlist",
+                    PackageManager.GET_SIGNATURES);
+            for (Signature signature : info.signatures) {
+                MessageDigest md = MessageDigest.getInstance("SHA");
+                md.update(signature.toByteArray());
+                Log.d("KeyHash:", Base64.encodeToString(md.digest(), Base64.DEFAULT));
+            }
+        } catch (PackageManager.NameNotFoundException | NoSuchAlgorithmException ignored) {
+            Log.e("Facebook",ignored.getMessage());
+        }
+
     }
 
 }

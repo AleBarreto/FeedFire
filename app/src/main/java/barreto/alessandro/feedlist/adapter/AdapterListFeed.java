@@ -50,7 +50,7 @@ public class AdapterListFeed extends RecyclerView.Adapter<AdapterListFeed.MyView
 
         holder.setTvName(feed.getName());
         holder.setTvContent( feed.getText() );
-        holder.setTvTime( feed.getTime() );
+        //holder.setTvTime( feed.getTime() );
         holder.setIvAvatar( feed.getPhotoAvatar() );
         holder.setIvContent( feed.getPhotoFeed() );
 

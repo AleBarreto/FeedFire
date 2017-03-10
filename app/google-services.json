@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "254225095966-3hed36ci06bf2rjn0unck8ld7hot3gdk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "barreto.alessandro.feedlist",
+            "certificate_hash": "1f4e8e39376faa145f24373255db788a2bc997b8"
+          }
+        },
+        {
           "client_id": "254225095966-03g7sshc2e4v208s8t27ssf0asogucqf.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
