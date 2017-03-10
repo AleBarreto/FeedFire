@@ -41,4 +41,9 @@ FeedFire is a project to help developers integrate with Google Firebase.
   - Login With Twitter
   - "Orderby" in List 
   
+## Download App
+
+See [Apk File](https://github.com/AleBarreto/FeedFire/blob/master/app-debug.apk?raw=true)
+
+  
 ### Send a Pull Request
